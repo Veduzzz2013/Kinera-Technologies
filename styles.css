@@ -24,10 +24,8 @@ body {
   border-bottom: 1px solid var(--border);
 }
 .nav-wrap { display: flex; justify-content: space-between; align-items: center; padding: 14px 0; }
-.brand { display: flex; gap: 12px; align-items: center; }
+.brand { display: flex; align-items: center; }
 .brand-logo { width: 42px; height: 42px; border-radius: 10px; object-fit: contain; background: #fff; border: 1px solid var(--border); padding: 4px; }
-.brand-name { margin: 0; font-weight: 700; }
-.brand-tag { margin: 0; font-size: .78rem; color: var(--muted); }
 .nav-links { display: flex; gap: 18px; }
 .nav-links a { text-decoration: none; color: var(--ink); font-weight: 500; position: relative; }
 .nav-links a::after { content: ""; position: absolute; left: 0; width: 0; bottom: -4px; height: 2px; background: var(--accent); transition: .25s ease; }
@@ -84,10 +82,10 @@ input:focus, textarea:focus { outline: 2px solid #b3e7c6; border-color: var(--ac
 }
 
 
-p, li, .brand-tag, .hero-sub, input, textarea, .price {
+p, li, .hero-sub, input, textarea, .price {
   font-family: "Inconsolata", monospace;
 }
-h1, h2, h3, .brand-name, .nav-links a, .btn, .tier {
+h1, h2, h3, .nav-links a, .btn, .tier {
   font-family: "Bricolage Grotesque", sans-serif;
 }
 
